@@ -16,7 +16,7 @@ Since estimating F in influence maximization is very time consuming, our code us
 	g++ -std=c++11 *.cpp -o ksub -DIL_STD -fopenmp -g
 ```
 
-After building, to run our code, run:
+## After building, to run our code, run:
 
 ```
 	./ksub -f <data filename> -c <cost filename>
@@ -32,10 +32,6 @@ After building, to run our code, run:
 		-a <algorithm, 0: Greedy, 1: DStream, 2: RStream, 3: SGr, 4: SampleRstream. Please use SSA source code for testing IM algorithm>
 		-p <number of threads (OpenMP) to running algorithms>
 ```
-
-We conducted experiments on a Linux machine with 2.3Ghz Xeon 18 core processor and 256Gb of RAM. With 70 threads, DStream usually terminates after 20 minutes, RStream is 2 hours.
-
-for both `revmax`, `image` and `maxcut` applications are in `src/algs.cpp`.
 
 ### Dependencies
 - GNU `g++`, `make`
