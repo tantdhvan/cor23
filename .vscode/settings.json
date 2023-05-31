@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "new": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "vector": "cpp",
+        "iomanip": "cpp",
+        "chrono": "cpp",
+        "*.tcc": "cpp",
+        "map": "cpp",
+        "streambuf": "cpp",
+        "tuple": "cpp"
+    }
+}
