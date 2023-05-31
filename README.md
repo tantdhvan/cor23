@@ -1,14 +1,8 @@
 ### Improved Approximation Algorithms for k-Submodular Maximization under a Knapsack Constraint
 ## The source code is organized as follows:
-- algs.cpp: contains experimental algorithms, including Alg3, Alg4, SmkDetAcc, SmkRanAcc, SmkStream, Fantom, and SampleGreedy.
-- obj.cpp: stores functions for calculating function f.
-- binheap.cpp: implements a heap structure.
-- mygraph.cpp: includes the data structure.
-- gen_er.cpp: used for generating ER datasets.
-- Source code of our 2 streaming algorithms, greedy and SGr.
-- Facebook dataset (in "data" folder) for testing the algorithms. Due to file size restriction in Github, please find the Sensor dataset in Intel Lab Data (http://db.csail.mit.edu/labdata/labdata.html).
-
-Since estimating F in influence maximization is very time consuming, our code uses OpenMP for parallelization (https://en.wikipedia.org/wiki/OpenMP).
+src:
+- greedy.cpp: contains experimental algorithms, including Alg1, Alg2, Alg3, Greedy
+- Streaming.cpp: contains experimental algorithms, including DS, RS
 
 ## To build our code, run:
 
@@ -33,5 +27,5 @@ Since estimating F in influence maximization is very time consuming, our code us
 		-p <number of threads (OpenMP) to running algorithms>
 ```
 
-### Dependencies
+## Dependencies
 - GNU `g++`, `make`
